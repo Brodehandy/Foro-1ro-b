@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../Chatdev"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Visual Studio Carpets"
+	}
+}

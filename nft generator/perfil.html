@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Calasanz 1ro B Socials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calasanz 1ro B Socials</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="perfil.html">Cambia tu Perfil</a></li>
+            <li><a href="foro.html">Publicar y Comentar</a></li>
+            <li><a href="publicaciones.html">Ver Publicaciones</a></li>
+        </ul>
+    </nav>
+    <section id="perfil">
+        <h2>Cambia tu Perfil</h2>
+        <form id="profileForm">
+            <label for="profileName">Nombre de Perfil:</label>
+            <input type="text" id="profileName" required>
+            <label for="profilePicture">Foto de Perfil:</label>
+            <input type="file" id="profilePicture" accept="image/*" required>
+            <button type="submit">Guardar Perfil</button>
+        </form>
+        <div id="profileDisplay"></div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
