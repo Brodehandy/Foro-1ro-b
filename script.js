@@ -130,4 +130,3 @@ document.addEventListener('DOMContentLoaded', function () {
         displayPosts(); // Actualizar la lista de publicaciones
     };
 });
-
